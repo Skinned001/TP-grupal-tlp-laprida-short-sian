@@ -1,7 +1,7 @@
 services:
   mongodb:
     image: mongo:8
-    container_name: empleados-mongodb
+    container_name: biblioteca-mongodb
     restart: unless-stopped
     ports:
       - "27017:27017"
