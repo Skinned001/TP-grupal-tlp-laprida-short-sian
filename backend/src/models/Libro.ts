@@ -30,7 +30,7 @@ const LibroSchema = new Schema<ILibro>({
     }
 }, {
     timestamps: true 
-}),
+})
 
 
 export const Libro = mongoose.model<ILibro>('Libro', LibroSchema);
